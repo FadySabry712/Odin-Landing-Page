@@ -87,3 +87,34 @@ img {
     border-radius: 10px;
     border: 1px solid #3882f6;
 }
+
+#infromation {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#infromation h2 {
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+#infromation ul {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+#infromation ul li {
+    border: 2px solid var(--button-color);
+    padding: 50px;
+    border-radius: 10px;
+    
+}
+
+#quote {
+    background-color: #e5e7eb;
+}
