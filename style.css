@@ -67,6 +67,8 @@ img {
 
 #hero img {
     padding: 15px;
+    width: 80%;
+    margin-left: 50px;
    
 }
 
@@ -126,4 +128,52 @@ img {
     font-size: 36px;
     font-style: light italic;
     color: #1f2937;
+}
+
+#sign_up {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#sign_up section{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #3882f6;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+#sign_up button {
+    background-color: #3882f6;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin-right: 80px;
+    color: white;
+    
+    
+}
+
+section #info {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 15px;
+   margin-left: 30px;
+   flex-direction: column;
+   color: #e5e7eb;
+   
+}
+
+
+
+#footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
