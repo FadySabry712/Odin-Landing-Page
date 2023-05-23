@@ -86,6 +86,7 @@ img {
     color: #f9faf8;
     border-radius: 10px;
     border: 1px solid #3882f6;
+    margin-top: 10px;
 }
 
 #infromation {
@@ -116,5 +117,13 @@ img {
 }
 
 #quote {
+    padding-top: 50px;
+    padding-bottom: 50px;
     background-color: #e5e7eb;
+}
+#quote p {
+    padding: 80px;
+    font-size: 36px;
+    font-style: light italic;
+    color: #1f2937;
 }
